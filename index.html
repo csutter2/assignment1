@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TK Photography</title>
+		<meta name="description" content="TK's landscape photography from all over the world.">
+		<meta name="author" content="Constance Sutter">
+		<link rel="stylesheet" href="styles.css">
+		<!--Adds HTML 5 element support for earlier versions of IE-->
+		<!--[if lt IE 9]> <script>Then follow this immediately with javascript code</script><![end if]-->
+	</head>
+	<body>
+		<header id="main_header">
+			<h1>TK Photography</h1>
+			<nav>
+				<h2>Main Navigation</h2>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#top">^ top</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="about">
+				<h2>About</h2>
+				<img src="TK.png" alt="Silhuette of TK taking photographs at sunset.">
+
+				<p>Hello!<br> 
+				I’m TK and I’m a photographer. I <em>love</em> looking at life through the lens of my camera. Landscape photography is my specialty and it’s taken me all over the world.</p>
+			</section>
+
+			<section id="gallery">
+				<header>
+					<h2>Gallery</h2>
+					<p>Here are some highlights of my work. The locations and year are in the caption.</p>
+				</header>
+
+				<figure>
+					<img src="Chile.png" alt="Waves gently crashing against bluffs of beach at sunrise.">
+					<figcaption>Chile, 2001</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Guatemala.png alt="Rows of purple flowers framing lake at sunset, with volcanoes in the background.">
+					<figcaption>Guatemala, 1997</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Hawaii.png alt="Verdant mountains in misty clouds, surrounded by clear blue ocean.">
+					<figcaption>Hawaii, 2010</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Iran.png alt="Red and green shrubs spotted over very dry land, with mountains in the distance.">
+					<figcaption>Iran, 1999</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Ireland.png alt="Brilliantly green grassy knolls, bright green trees under a misty sky.">
+					<figcaption>Ireland, 2012</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Italy.png alt="Torquoise lake surrounded by evergreens, against a huge snowy mountain.">
+					<figcaption>Italy, 2015</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Moab-Desert.png alt="Sunset viewed from top of red canyon with winding river below.">
+					<figcaption>Moab Desert, 2020</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Rocky-Mountains.png alt="Waves crashing against rocky outcrops that appear to be made of blocks.">
+					<figcaption>Rocky Mountains, 2009</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Switzerland.png alt="View of snowy mountain crests from atop a hill, behind stand of evergreens.">
+					<figcaption>Switzerland, 2014</figcaption>
+				</figure>
+
+				<figure>
+					<img src=UK.png alt="Long view of valley between grassy knolls.">
+					<figcaption>UK, 2005</figcaption>
+				</figure>
+
+				<figure>
+					<img src=USA.png alt="Field of yellow flowers with sprinkling hot pink and powder flowers, against a line of evergreens in the background.">
+					<figcaption>USA, 2021</figcaption>
+				</figure>
+
+				<figure>
+					<img src=Wyoming.png alt="A lake bordered by evergreens and red, rocky mountains set behind them against a blue sky, which are reflected in the water.">
+					<figcaption>Wyoming, 2021</figcaption>
+				</figure>
+			</section>
+
+			<section id="contact">
+				<header>
+					<h2>Contact</h2>
+					<p>Please fill out this form and I’ll connect with you soon.</p>
+				</header>
+
+				<form action="success.html" method="get">
+					<label for="full-name">Name</label>
+					<input type="text" id="full-name" name="full-name" placeholder="Your full name" autocomplete="name" required>
+				
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email" required>
+
+					<!--visually looks like text input NOT textarea, but verify?-->
+					<!-- <label>Message</label>
+					<textarea>What can I help you with?</textarea> -->
+					
+					<label for="message">Message</label>
+					<input type="text" id="message" name="message" placeholder="What can I help you with?" required>
+
+					<button type="submit" value="submit" formtarget="_blank">Submit</button>
+				</form>
+			</section>
+		</main>
+
+		<footer id="copyright-info">			
+			<p><small>Copyright &copy; 2021 TK Photography</small></p>
+		</footer>
+	</body>
+</html>
