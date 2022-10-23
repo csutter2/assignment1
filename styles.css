@@ -1,3 +1,18 @@
+/*COLOR SCHEME
+Teal: #007D7B
+White: #FFF;
+Black: #000;
+**/
+html {
+    box-sizing: border-box;
+    background-color: #000;
+}
+    *, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
-    background-color: hotpink;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1310px;
+    margin: 0 auto;
 }
