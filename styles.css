@@ -49,6 +49,12 @@ p {
 em {
     font-style: normal;
 }
+figure {
+    width: 420px;
+    height: 281px;
+    display: inline-block;
+    margin: -20px 3px;
+}
 form {
     width: 850px;
     margin: 0 auto;
@@ -113,20 +119,21 @@ footer {
     text-align: right;
     float: right;
     margin-right: 20px;
-    /* margin-left: 10px; */
     margin-top: 0;
 }
 #gallery {
     clear: both; 
     margin-left: 10px;
+    margin-right: 10px;
+}
+#gallery header {
+    margin-left: 5px;
 }
 #gallery h2 {
     margin-bottom: -15px;
 }
-#gallery figure {
-    width: 420px;
-    display: inline-block;
-    margin: 0;
+#gallery p {
+    padding-bottom: 10px;
 }
 .white_caption {
     color: #FFF;
@@ -159,6 +166,11 @@ figure:nth-child(5) figcaption {
 }
 #contact header {
     text-align: center;
+}
+#contact h2 {
+    margin-top: -17px;
+    margin-bottom: -20px;
+    padding-top: 5px;
 }
 #button_container {
     text-align: center;
