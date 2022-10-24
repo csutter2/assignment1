@@ -46,6 +46,9 @@ p {
     text-transform: none;
     font-size: 20px;
 }
+em {
+    font-style: normal;
+}
 form {
     width: 850px;
     margin: 0 auto;
@@ -58,19 +61,24 @@ input {
     color: #007D7B;
     text-transform: uppercase;
     display: block;
-    margin: 0 auto;
+    margin: 5px auto;
+    padding: 5px;
 }
 button {
     background-color: #007D7B;
     color: #FFF;
     width: 300px;
     border-radius: 4px;
+    margin: 5px;
     text-transform: uppercase;
+    padding: 5px;
 }
 footer {
     text-align: center;
     background-color: #000;
     color: #FFF;
+    margin-top: -20px;
+    padding: 15px;
 }
 #main_header {
     overflow: hidden;
@@ -120,11 +128,38 @@ footer {
     display: inline-block;
     margin: 0;
 }
+.white_caption {
+    color: #FFF;
+}
+.upper_left {
+    position: relative;
+    bottom: 285px;
+    left: 10px;
+}
+.lower_left {
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+.lower_right {
+    text-align: right;
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+figure:nth-child(5) figcaption {
+    position: relative;
+    bottom: 630px;
+    left: 10px;
+}
 #contact {
     clear: both;
     background-color: #000;
     color: #FFF;
 }
 #contact header {
+    text-align: center;
+}
+#button_container {
     text-align: center;
 }
