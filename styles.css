@@ -14,6 +14,7 @@ body {
     background-color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    line-height: 1.5;
     width: 1310px;
     margin: 0 auto;
 }
@@ -41,6 +42,36 @@ a {
 a:hover {
     color: #007D7B;
 }
+p {
+    text-transform: none;
+    font-size: 20px;
+}
+form {
+    width: 850px;
+    margin: 0 auto;
+}
+label {
+    font-size: 16px;
+}
+input {
+    width: 850px;
+    color: #007D7B;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+}
+button {
+    background-color: #007D7B;
+    color: #FFF;
+    width: 300px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+}
 #main_header {
     overflow: hidden;
     background-color: #000;
@@ -51,10 +82,49 @@ a:hover {
     right: 0;
     background-color: #007D7B;
     color: #FFF;
-    padding: 10px;
+    padding: 0 15px;
     text-align: center;
 }
 [href="#top"]:hover {
     background-color: #FFF;
     color: #007D7B;
+}
+#about img {
+    float: left;
+    width: 850px;
+    height: auto;
+    margin: 10px;
+}
+#about h2 {
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
+#about_text {
+    float: right;
+    width: 420px;
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+    /* margin-left: 10px; */
+    margin-top: 0;
+}
+#gallery {
+    clear: both; 
+    margin-left: 10px;
+}
+#gallery h2 {
+    margin-bottom: -15px;
+}
+#gallery figure {
+    width: 420px;
+    display: inline-block;
+    margin: 0;
+}
+#contact {
+    clear: both;
+    background-color: #000;
+    color: #FFF;
+}
+#contact header {
+    text-align: center;
 }
