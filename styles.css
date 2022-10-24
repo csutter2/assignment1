@@ -17,3 +17,44 @@ body {
     width: 1310px;
     margin: 0 auto;
 }
+h1 {
+    color: #007D7B;
+    float: left;
+    margin-left: 20px;
+}
+nav h2 {
+    display: none;
+}
+ul {
+    list-style: none;
+    float: right;
+}
+ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 30px;
+}
+a:hover {
+    color: #007D7B;
+}
+#main_header {
+    overflow: hidden;
+    background-color: #000;
+}
+[href="#top"] {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #007D7B;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+[href="#top"]:hover {
+    background-color: #FFF;
+    color: #007D7B;
+}
