@@ -14,14 +14,18 @@ body {
     background-color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    line-height: 1.5;
+    line-height: 1.25;
     width: 1310px;
     margin: 0 auto;
 }
 h1 {
     color: #007D7B;
     float: left;
-    margin-left: 20px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+h2 {
+    font-size: 40px;
 }
 nav h2 {
     display: none;
@@ -33,11 +37,13 @@ ul {
 ul li {
     display: inline-block;
     font-size: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
 }
 a {
     text-decoration: none;
     color: #FFF;
-    padding: 30px;
+    padding: 50px;
 }
 a:hover {
     color: #007D7B;
@@ -53,11 +59,13 @@ figure {
     width: 420px;
     height: 281px;
     display: inline-block;
-    margin: -20px 3px;
+    margin: -12px 4px;
+    font-size: 16px;
 }
 form {
     width: 850px;
     margin: 0 auto;
+    font-size: 16px;
 }
 label {
     font-size: 16px;
@@ -65,26 +73,29 @@ label {
 input {
     width: 850px;
     color: #007D7B;
+    font-weight: bold;
     text-transform: uppercase;
     display: block;
-    margin: 5px auto;
+    margin: 7px auto;
     padding: 5px;
 }
 button {
     background-color: #007D7B;
     color: #FFF;
-    width: 300px;
-    border-radius: 4px;
-    margin: 5px;
+    width: 420px;
+    border-radius: 10px;
+    margin-top: .5px;
+    margin-bottom: 15px;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 7px;
 }
 footer {
     text-align: center;
     background-color: #000;
     color: #FFF;
+    font-size: 16px;
     margin-top: -20px;
-    padding: 15px;
+    padding: 16px;
 }
 #main_header {
     overflow: hidden;
@@ -107,41 +118,41 @@ footer {
     float: left;
     width: 850px;
     height: auto;
-    margin: 10px;
+    margin-left: 15px;
+    margin-top: 14px;
 }
 #about h2 {
     margin-top: 10px;
-    margin-bottom: -15px;
+    margin-bottom: -14px;
 }
 #about_text {
     float: right;
     width: 420px;
     text-align: right;
     float: right;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-top: 0;
 }
 #gallery {
     clear: both; 
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
 }
 #gallery header {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 #gallery h2 {
     margin-bottom: -15px;
 }
 #gallery p {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .white_caption {
     color: #FFF;
 }
 .upper_left {
     position: relative;
-    bottom: 285px;
-    left: 10px;
+    bottom: 280px;
+    left: 8px;
 }
 .lower_left {
     position: relative;
@@ -152,12 +163,18 @@ footer {
     text-align: right;
     position: relative;
     bottom: 40px;
-    right: 20px;
+    right: 25px;
 }
+/*Iran's caption position*/
 figure:nth-child(5) figcaption {
     position: relative;
     bottom: 630px;
-    left: 10px;
+    left: 8px;
+}
+/*Moab's adjustment to left*/
+figure:nth-child(8) figcaption {
+    position: relative;
+    right: 45px;
 }
 #contact {
     clear: both;
@@ -166,11 +183,12 @@ figure:nth-child(5) figcaption {
 }
 #contact header {
     text-align: center;
+    margin-bottom: -15px;
 }
 #contact h2 {
-    margin-top: -17px;
-    margin-bottom: -20px;
-    padding-top: 5px;
+    margin-top: -13px;
+    margin-bottom: -18px;
+    padding-top: 8px;
 }
 #button_container {
     text-align: center;
