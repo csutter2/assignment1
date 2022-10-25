@@ -1,5 +1,5 @@
 /*COLOR SCHEME*******************************************
-Teal: #007D7B
+Teal: #007D7B;
 White: #FFF;
 Black: #000;
 **/
@@ -22,9 +22,9 @@ body {
 }
 h1 {
     color: #007D7B;
+    font-size: 40px;
     float: left;
     margin-left: 35px;
-    font-size: 40px;
 }
 h2 {
     font-size: 40px;
@@ -63,22 +63,20 @@ em {
 figure {
     width: 420px;
     height: 281px;
+    font-size: 16px;
     display: inline-block;
     margin: -12px 4px;
-    font-size: 16px;
 }
 form {
     width: 850px;
-    margin: 0 auto;
     font-size: 16px;
+    margin: 0 auto;
 }
 label {
     font-size: 16px;
 }
 input {
     width: 850px;
-    font-weight: bold;
-    text-transform: uppercase;
     display: block;
     margin: 7px auto;
     padding: 5px;
@@ -86,11 +84,11 @@ input {
 button {
     background-color: #007D7B;
     color: #FFF;
+    text-transform: uppercase;
     width: 420px;
     border-radius: 10px;
     margin-top: .5px;
     margin-bottom: 15px;
-    text-transform: uppercase;
     padding: 7px;
 }
 footer {
@@ -134,7 +132,6 @@ footer {
     margin-bottom: -14px;
 }
 #about_text {
-    float: right;
     width: 420px;
     text-align: right;
     float: right;
@@ -207,6 +204,7 @@ figure:nth-child(8) figcaption {
 ::placeholder {
     color: #007D7B;
     font-weight: bold;
+    text-transform: uppercase;
 }
 #button_container {
     text-align: center;
