@@ -1,8 +1,10 @@
-/*COLOR SCHEME
+/*COLOR SCHEME*******************************************
 Teal: #007D7B
 White: #FFF;
 Black: #000;
 **/
+
+/*GLOBAL SELECTORS***************************************/
 html {
     box-sizing: border-box;
     background-color: #000;
@@ -99,6 +101,8 @@ footer {
     margin-top: -20px;
     padding: 16px;
 }
+
+/*MAIN HEADER***********************************************/
 #main_header {
     overflow: hidden;
     background-color: #000;
@@ -116,6 +120,8 @@ footer {
     background-color: #FFF;
     color: #007D7B;
 }
+
+/*ABOUT SECTION***********************************************/
 #about img {
     float: left;
     width: 850px;
@@ -135,6 +141,8 @@ footer {
     margin-right: 25px;
     margin-top: 0;
 }
+
+/*GALLERY SECTION***********************************************/
 #gallery {
     clear: both; 
     margin-left: 8px;
@@ -151,6 +159,7 @@ footer {
 .white_caption {
     color: #FFF;
 }
+/*Positioning Captions: Upper-left, lower-left, or lower-right*/
 .upper_left {
     position: relative;
     bottom: 280px;
@@ -178,6 +187,8 @@ figure:nth-child(8) figcaption {
     position: relative;
     right: 45px;
 }
+
+/*CONTACT SECTION***********************************************/
 #contact {
     clear: both;
     background-color: #000;
