@@ -10,120 +10,121 @@
 		<!--Adds HTML 5 element support for earlier versions of IE-->
 		<!--[if lt IE 9]> <script>Then follow this immediately with javascript code</script><![end if]-->
 	</head>
-	<body>
+	<body itemscope itemtype="https://schema.org/ImageGallery">
 		<header id="main_header">
 			<h1>TK Photography</h1>
 			<nav>
 				<h2>Main Navigation</h2>
 				<ul>
 					<li><a href="#about">About</a></li>
-					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#gallery" itemprop="significantLink">Gallery</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="#top">^<br>top</a></li>
 				</ul>
 			</nav>
 		</header>
+		
+		<section id="about">
+			<img src="TK.png" alt="Silhuette of TK taking photographs at sunset.">
+			<div id="about_text">
+				<h2>About</h2>
+				<p itemprop="creator about">Hello!<br> 
+				I’m TK and I’m a photographer.<br> I <em>love</em> looking at life through the lens of my camera. Landscape photography is my specialty and it’s taken me all over the world.</p>
+			</div>
+		</section>
 
 		<main>
-			<section id="about">
-				<img src="TK.png" alt="Silhuette of TK taking photographs at sunset.">
-				<div id="about_text">
-					<h2>About</h2>
-					<p>Hello!<br> 
-					I’m TK and I’m a photographer.<br> I <em>love</em> looking at life through the lens of my camera. Landscape photography is my specialty and it’s taken me all over the world.</p>
-				</div>
-			</section>
-
-			<section id="gallery">
+			<section id="gallery" itemprop="mainContentOfPage">
 				<header>
 					<h2>Gallery</h2>
 					<p>Here are some highlights of my work. The locations and year are in the caption.</p>
 				</header>
 
 				<figure>
-					<img src="Chile.png" alt="Waves gently crashing against bluffs of beach at sunrise.">
-					<figcaption class="upper_left">Chile, 2001</figcaption>
+					<img src="Chile.png" alt="Waves gently crashing against bluffs of beach at sunrise." itemprop="exampleOfWork">
+					<figcaption class="upper_left" itemprop="contentLocation dateCreated">Chile, 2001</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Guatemala.png alt="Rows of purple flowers framing lake at sunset, with volcanoes in the background.">
-					<figcaption class="upper_left white_caption">Guatemala, 1997</figcaption>
+					<img src=Guatemala.png alt="Rows of purple flowers framing lake at sunset, with volcanoes in the background." itemprop="exampleOfWork">
+					<figcaption class="upper_left white_caption" itemprop="contentLocation dateCreated">Guatemala, 1997</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Hawaii.png alt="Verdant mountains in misty clouds, surrounded by clear blue ocean.">
-					<figcaption class="lower_right white_caption">Hawaii, 2010</figcaption>
+					<img src=Hawaii.png alt="Verdant mountains in misty clouds, surrounded by clear blue ocean." itemprop="exampleOfWork">
+					<figcaption class="lower_right white_caption" itemprop="contentLocation dateCreated">Hawaii, 2010</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Iran.png alt="Red and green shrubs spotted over very dry land, with mountains in the distance.">
-					<figcaption>Iran, 1999</figcaption>
+					<img src=Iran.png alt="Red and green shrubs spotted over very dry land, with mountains in the distance." itemprop="exampleOfWork">
+					<figcaption itemprop="contentLocation dateCreated">Iran, 1999</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Ireland.png alt="Brilliantly green grassy knolls, bright green trees under a misty sky.">
-					<figcaption class="lower_right white_caption">Ireland, 2012</figcaption>
+					<img src=Ireland.png alt="Brilliantly green grassy knolls, bright green trees under a misty sky." itemprop="exampleOfWork">
+					<figcaption class="lower_right white_caption" itemprop="contentLocation dateCreated">Ireland, 2012</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Italy.png alt="Torquoise lake surrounded by evergreens, against a huge snowy mountain.">
-					<figcaption class="lower_left white_caption">Italy, 2015</figcaption>
+					<img src=Italy.png alt="Torquoise lake surrounded by evergreens, against a huge snowy mountain." itemprop="exampleOfWork">
+					<figcaption class="lower_left white_caption" itemprop="contentLocation dateCreated">Italy, 2015</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Moab-Desert.png alt="Sunset viewed from top of red canyon with winding river below.">
-					<figcaption class="lower_right white_caption">Moab Desert, 2020</figcaption>
+					<img src=Moab-Desert.png alt="Sunset viewed from top of red canyon with winding river below." itemprop="exampleOfWork">
+					<figcaption class="lower_right white_caption" itemprop="contentLocation dateCreated">Moab Desert, 2020</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Rocky-Mountains.png alt="Waves crashing against rocky outcrops that appear to be made of blocks.">
-					<figcaption class="upper_left">Rocky Mountains, 2009</figcaption>
+					<img src=Rocky-Mountains.png alt="Waves crashing against rocky outcrops that appear to be made of blocks." itemprop="exampleOfWork">
+					<figcaption class="upper_left" itemprop="contentLocation dateCreated">Rocky Mountains, 2009</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Switzerland.png alt="View of snowy mountain crests from atop a hill, behind stand of evergreens.">
-					<figcaption class="lower_left">Switzerland, 2014</figcaption>
+					<img src=Switzerland.png alt="View of snowy mountain crests from atop a hill, behind stand of evergreens." itemprop="exampleOfWork">
+					<figcaption class="lower_left" itemprop="contentLocation dateCreated">Switzerland, 2014</figcaption>
 				</figure>
 
 				<figure>
-					<img src=UK.png alt="Long view of valley between grassy knolls.">
-					<figcaption class="lower_right white_caption">UK, 2005</figcaption>
+					<img src=UK.png alt="Long view of valley between grassy knolls." itemprop="exampleOfWork">
+					<figcaption class="lower_right white_caption" itemprop="contentLocation dateCreated">UK, 2005</figcaption>
 				</figure>
 
 				<figure>
-					<img src=USA.png alt="Field of yellow flowers with sprinkling hot pink and powder flowers, against a line of evergreens in the background.">
-					<figcaption class="upper_left white_caption">USA, 2021</figcaption>
+					<img src=USA.png alt="Field of yellow flowers with sprinkling hot pink and powder flowers, against a line of evergreens in the background." itemprop="exampleOfWork">
+					<figcaption class="upper_left white_caption" itemprop="contentLocation dateCreated">USA, 2021</figcaption>
 				</figure>
 
 				<figure>
-					<img src=Wyoming.png alt="A lake bordered by evergreens and red, rocky mountains set behind them against a blue sky, which are reflected in the water.">
-					<figcaption class="upper_left white_caption">Wyoming, 2021</figcaption>
+					<img src=Wyoming.png alt="A lake bordered by evergreens and red, rocky mountains set behind them against a blue sky, which are reflected in the water." itemprop="exampleOfWork">
+					<figcaption class="upper_left white_caption" itemprop="contentLocation dateCreated">Wyoming, 2021</figcaption>
 				</figure>
-			</section>
-
-			<section id="contact">
-				<header>
-					<h2>Contact</h2>
-					<p>Please fill out this form and I’ll connect with you soon.</p>
-				</header>
-
-				<form>
-					<label for="full-name">Name</label>
-					<input type="text" id="full-name" name="full-name" placeholder="Your full name" autocomplete="name" required>
-				
-					<label for="email">Email</label>
-					<input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email" required>
-
-					<label for="message">Message</label>
-					<input type="text" id="message" name="message" placeholder="What can I help you with?" required>
-					<div id="button_container">
-						<button type="submit" value="submit" formtarget="_blank">Submit</button>
-					</div>
-				</form>
 			</section>
 		</main>
 
-		<footer id="copyright-info">			
+		<section id="contact">
+			<header>
+				<h2>Contact</h2>
+				<p>Please fill out this form and I’ll connect with you soon.</p>
+			</header>
+
+			<form>
+				<label for="full-name">Name</label>
+				<input type="text" id="full-name" name="full-name" placeholder="Your full name" autocomplete="name" required>
+			
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email address" autocomplete="email" required>
+
+				<label for="message">Message</label>
+				<input type="text" id="message" name="message" placeholder="What can I help you with?" required>
+
+				<div id="button_container">
+					<button type="submit" value="submit" formtarget="_blank">Submit</button>
+				</div>
+			</form>
+		</section>
+
+		<footer id="copyright-info" itemprop="copyrightYear">			
 			<p><small>Copyright 2021 TK Photography</small></p>
 		</footer>
 	</body>

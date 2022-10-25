@@ -45,6 +45,9 @@ a {
     color: #FFF;
     padding: 50px;
 }
+a:focus {
+    background-color: rgba(0,125,123,.8);
+}
 a:hover {
     color: #007D7B;
 }
