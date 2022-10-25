@@ -72,7 +72,6 @@ label {
 }
 input {
     width: 850px;
-    color: #007D7B;
     font-weight: bold;
     text-transform: uppercase;
     display: block;
@@ -189,6 +188,9 @@ figure:nth-child(8) figcaption {
     margin-top: -13px;
     margin-bottom: -18px;
     padding-top: 8px;
+}
+::placeholder {
+    color: #007D7B;
 }
 #button_container {
     text-align: center;
